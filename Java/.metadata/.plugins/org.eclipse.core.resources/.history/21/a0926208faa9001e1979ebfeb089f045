@@ -1,0 +1,25 @@
+package com.example;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DemoTesting {
+public static void main(String[] args) {
+	System.setProperty("webdriver.chrome.driver", "C:\\Driver\\chromedriver.exe");
+	
+	//Instantiate a chromedriver class
+	
+	WebDriver driver=new ChromeDriver();
+	
+	//Launch Website
+	
+	driver.navigate().to("http://www.google.com/");
+	
+	//Maximize the browser
+	
+	driver.manage().window().maximize();
+	
+	//driver.close();
+	
+}
+}

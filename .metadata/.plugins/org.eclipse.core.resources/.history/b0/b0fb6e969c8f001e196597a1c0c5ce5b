@@ -1,0 +1,5 @@
+package com.comviva.pos.util;
+
+public class DBUtil {
+
+}

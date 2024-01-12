@@ -1,0 +1,8 @@
+package com.comviva.pos.service;
+
+import com.comviva.pos.bean.StoreBean;
+
+public interface Administrator {
+public String addStore(StoreBean storebean);
+	//Return value must be either: "SUCCESS", "FAIL", “ERROR”
+}

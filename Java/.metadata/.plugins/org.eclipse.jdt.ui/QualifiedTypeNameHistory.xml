@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthScrollBarUI"/>
+<fullyQualifiedTypeName name="com.comviva.ui.Main"/>
+<fullyQualifiedTypeName name="com.comviva.bean.EmployeeBean"/>
+<fullyQualifiedTypeName name="com.comviva.dao.EmployeeDao"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.comviva.pos.bean.FoodBean"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="com.example.bean.BodyMassBean"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.comviva.Register.Register"/>
+<fullyQualifiedTypeName name="com.comviva.invalidmail.InvalidEmailException"/>
+<fullyQualifiedTypeName name="com.comviva.passwordnotmatch.PasswordNotMatchException"/>
+<fullyQualifiedTypeName name="com.comviva.invalidpassword.InvalidPasswordException"/>
+<fullyQualifiedTypeName name="java.time.ZoneId"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

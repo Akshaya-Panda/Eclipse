@@ -1,0 +1,22 @@
+package com.comviva.pos.ui;
+
+import com.comviva.pos.bean.CartBean;
+import com.comviva.pos.bean.CredentialsBean;
+import com.comviva.pos.bean.FoodBean;
+import com.comviva.pos.bean.OrderBean;
+import com.comviva.pos.bean.StoreBean;
+import com.comviva.pos.service.Administrator;
+import com.comviva.pos.service.Customer;
+
+public class CustomerUI {
+	
+	Administrator as = new Administrator();
+	Customer cs = new Customer();
+	StoreBean sb=new StoreBean();
+	FoodBean fb=new FoodBean();
+	CartBean ctBean=new CartBean();
+	CredentialsBean cb=new CredentialsBean();
+	OrderBean ob=new OrderBean();
+	
+
+}

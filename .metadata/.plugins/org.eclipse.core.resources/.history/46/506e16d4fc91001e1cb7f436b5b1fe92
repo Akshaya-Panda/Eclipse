@@ -1,0 +1,91 @@
+package com.comviva.pos.ui;
+
+import java.sql.Date;
+
+import javax.swing.JOptionPane;
+
+import com.comviva.pos.bean.CartBean;
+import com.comviva.pos.bean.CredentialsBean;
+import com.comviva.pos.bean.FoodBean;
+import com.comviva.pos.bean.OrderBean;
+import com.comviva.pos.bean.ProfileBean;
+import com.comviva.pos.bean.StoreBean;
+import com.comviva.pos.dao.AdministratorDao;
+//import com.comviva.pos.dao.posdaocustomer;
+import com.comviva.pos.service.Administrator;
+import com.comviva.pos.service.Customer;
+
+public class CustomerUI {
+	
+	Administrator as = new Administrator();
+	Customer cs = new Customer();
+	StoreBean sb=new StoreBean();
+	FoodBean fb=new FoodBean();
+	CartBean ctBean=new CartBean();
+	ProfileBean pb=new ProfileBean();
+	CredentialsBean crBean=new CredentialsBean();
+	OrderBean ob=new OrderBean();
+
+	
+	public void ValidateCustomer() {
+
+		String choice=JOptionPane.showInputDialog("Registered Customer? [Y/N]");
+		
+		if(choice.equalsIgnoreCase("N")) {
+		
+			JOptionPane.showMessageDialog(null,"Initiating Customer Registration");
+			
+			String userID=JOptionPane.showInputDialog("Enter User ID");
+			crBean.setUserID(userID);
+			String firstName=JOptionPane.showInputDialog("Enter Your First Name");
+			pb.setFirstName(firstName);
+			String lastName=JOptionPane.showInputDialog("Enter Your Last Name");
+			pb.setLastName(lastName);
+			Date dob = Date.valueOf(JOptionPane.showInputDialog("Enter DOB in (yyyy-mm-dd) Format"));
+			pb.setDateOfBirth(dob);
+			String gender=JOptionPane.showInputDialog("Enter Your Gender (M/F)");
+			pb.setGender(gender);
+			String street=JOptionPane.showInputDialog("Enter Street");
+			pb.setStreet(street);
+			String location=JOptionPane.showInputDialog("Enter Location");
+			pb.setLocation(location);
+			String city=JOptionPane.showInputDialog("Enter City");
+			pb.setCity(city);
+			String state=JOptionPane.showInputDialog("Enter State");
+			pb.setState(state);
+			String pincode=JOptionPane.showInputDialog("Enter Pincode");
+			pb.setPincode(pincode);
+			String mobileNo=JOptionPane.showInputDialog("Enter 10 digit Mobile No");
+			pb.setMobileNo(mobileNo);
+			String emailID=JOptionPane.showInputDialog("Enter Your Email");
+			pb.setEmailID(emailID);
+			
+			//JOptionPane.showMessageDialog(null,cs.createProfile(crBean,pb));
+		
+		}	
+		
+		
+		
+//		else if(choice.equalsIgnoreCase("Y")) {
+//			
+//						
+//			String mbno=JOptionPane.showInputDialog("Enter Registerd 10 digit Mobile No");
+//			//boolean flag = posdaocustomer.authCustomer(mbno);
+//			
+//			if(flag==true) {
+//
+//					JOptionPane.showMessageDialog(null,"Customer Log-in SUCCESSFUL");
+//					
+//			String userId=JOptionPane.showInputDialog("Enter CUSTOMER UserID");
+//			crBean.setUserID(userId);
+//			String password=JOptionPane.showInputDialog("Enter CUSTOMER Password");
+//			crBean.setPassword(password);
+//			crBean.setStr(crBean.getUserID()+crBean.getPassword());
+//			
+//			//boolean auth = posdao.authenticate(crBean);
+//
+//}
+//	
+	//	}
+	}
+	}

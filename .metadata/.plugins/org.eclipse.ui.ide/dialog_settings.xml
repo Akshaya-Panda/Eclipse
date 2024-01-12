@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\akshaya.panda\Downloads\pos"/>
+		<item value="C:\Users\akshaya.panda\eclipse-workspace\Java\ocs"/>
+		<item value="C:\Users\akshaya.panda\Downloads\DominozPizza\DominozPizza"/>
+		<item value="C:\Users\akshaya.panda\eclipse-workspace\Java"/>
+		<item value="C:\Users\akshaya.panda\eclipse-workspace"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\akshaya.panda\eclipse-workspace"/>
+			<item value="C:\Users\akshaya.panda\Downloads\Diet-Plan-Case1 1"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="381" key="DIALOG_X_ORIGIN"/>
+		<item value="185" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

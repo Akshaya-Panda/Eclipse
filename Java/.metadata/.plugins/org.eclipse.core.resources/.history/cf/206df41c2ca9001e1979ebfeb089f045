@@ -1,0 +1,11 @@
+package com.example;
+import org.junit.*;
+
+public class MyTest {
+@Test
+public void test1()
+{
+	Assert.assertEquals(55, Calc.add(22, 11));
+	}
+
+}

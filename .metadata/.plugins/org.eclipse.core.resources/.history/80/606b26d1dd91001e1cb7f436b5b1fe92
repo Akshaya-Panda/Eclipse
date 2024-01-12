@@ -1,0 +1,45 @@
+package com.comviva.pos.bean;
+
+public class CartBean {
+	private int cartID,quantity,orderDate;
+	private double costl;
+	private String userID, FooDid;
+	public int getCartID() {
+		return cartID;
+	}
+
+	public void setCartID(int cartID) {
+		this.cartID = cartID;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	public int getOrderDate() {
+		return orderDate;
+	}
+	public void setOrderDate(int orderDate) {
+		this.orderDate = orderDate;
+	}
+	public double getCostl() {
+		return costl;
+	}
+	public void setCostl(double costl) {
+		this.costl = costl;
+	}
+	public String getUserID() {
+		return userID;
+	}
+	public void setUserID(String userID) {
+		this.userID = userID;
+	}
+	public String getFooDid() {
+		return FooDid;
+	}
+	public void setFooDid(String fooDid) {
+		FooDid = fooDid;
+	}
+	
+}

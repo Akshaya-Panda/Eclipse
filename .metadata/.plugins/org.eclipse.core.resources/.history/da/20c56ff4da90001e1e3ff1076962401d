@@ -1,0 +1,68 @@
+package com.comviva.pos.dao;
+
+import java.sql.*;
+
+import com.comviva.pos.bean.StoreBean;
+import com.comviva.pos.service.Administrator;
+import com.comviva.pos.util.DBUtil;
+
+public class AdministratorDao implements Administrator{
+public static Connection con=DBUtil.con;
+public static PreparedStatement ps;
+public static ResultSet rs;
+int i=0;
+	@Override
+	public String addStore(StoreBean storebean) {
+		try
+		{
+		ps=con.prepareStatement("insert into POS_TBL_PizzaStore values(?,?,?,?,?,?,?)");
+		ps.setString(1,storebean.getStoreID());
+		ps.setString(2, storebean.getName());
+		ps.setString(3,storebean.getStreet());
+		ps.setString(4,storebean.getMobileNo());
+		ps.setString(5, storebean.getCity());
+		ps.setString(6, storebean.getState());
+		ps.setString(7, storebean.getPincode());
+		i=ps.executeUpdate();
+		}
+		catch(SQLException sql)
+		{
+			return "ERROR";
+		}
+		if(i==1)
+		{
+			return "SUCCESS";
+		}
+		else
+		{
+			return "FAIL";
+		}
+	}
+	
+	public boolean modifyStore(StoreBean storebean)
+	{
+		
+		boolean res = false;
+		int i = 0;
+		try {
+			ps = con.prepareStatement(
+					"update pos_tbl_pizzastore set name=?,street=?,mobileno=?,city=?,state=?,pincode=? where storeID=?");
+			ps.setString(7,storebean.getStoreID());
+			ps.setString(1, storebean.getName());
+			ps.setString(2,storebean.getStreet());
+			ps.setString(3,storebean.getMobileNo());
+			ps.setString(4, storebean.getCity());
+			ps.setString(5, storebean.getState());
+			ps.setString(6, storebean.getPincode());
+			i = ps.executeUpdate();
+			if (i > 0)
+				res = true;
+
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+		return res;
+	}
+}
+
+

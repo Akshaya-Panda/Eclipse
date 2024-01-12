@@ -1,0 +1,19 @@
+package com.example;
+import org.junit.*;
+
+public class MyTest {
+@Test
+public void test1()
+{
+	Calc c =new Calc();
+	Assert.assertEquals(33, Calc.add(22, 11));
+	
+	}
+@Test
+public void test2()
+{
+Calc c =new Calc();
+Assert.assertEquals(15,c.sub(33,18) );
+
+}
+}

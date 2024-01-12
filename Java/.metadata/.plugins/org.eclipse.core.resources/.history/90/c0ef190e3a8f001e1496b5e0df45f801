@@ -1,0 +1,20 @@
+package com.example;
+import java.util.*;
+public class ListDemo {
+	public static void main(String[] args) {
+		//ArrayList a1=new ArrayList();
+		LinkedList a1= new LinkedList();
+		a1.add("Mango");
+		a1.add(33);	
+		a1.add(66.7f);
+		a1.add('x');
+		a1.add("pineapple");
+		a1.add("pomegranate");
+		//a1.remove(1);
+		a1.set(1,"Apple");
+		a1.remove("Mango");
+		a1.push("orange");
+	System.out.println(a1);	
+	}
+
+}

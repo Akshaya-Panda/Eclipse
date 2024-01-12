@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.comviva.pos.service.Administrator"/>
+<fullyQualifiedTypeName name="com.comviva.pos.util.DBUtil"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="com.comviva.pos.dao.CustomerDao"/>
+<fullyQualifiedTypeName name="com.comviva.pos.bean.CreditCardBean"/>
+</qualifiedTypeNameHistroy>

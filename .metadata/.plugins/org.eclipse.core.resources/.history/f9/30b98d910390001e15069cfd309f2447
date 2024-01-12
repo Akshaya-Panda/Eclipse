@@ -1,0 +1,27 @@
+package com.example;
+
+public class ThreadRun implements Runnable {
+	public static void main(String[] args) {
+		ThreadDemo t1=new ThreadDemo();//new born
+		ThreadDemo t2=new ThreadDemo();
+		t1.start();
+		t1.interrupt();
+		t2.start();
+		
+		
+	}
+	public void run()
+	{
+		for(int i=0;i<=5;i++)
+		{
+			System.out.println(i);
+			try {
+				Thread.sleep(3000);
+			}
+			catch(Exception e)
+			{
+				e.printStackTrace();
+			}
+		}
+	}
+}

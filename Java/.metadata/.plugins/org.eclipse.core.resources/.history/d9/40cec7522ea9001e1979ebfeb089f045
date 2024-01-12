@@ -1,0 +1,44 @@
+package com.example;
+import org.junit.*;
+
+public class MyTest {
+	@Before
+	public void before()
+	{
+		System.out.println("before Test1");
+	}
+@Test
+public void test1()
+{
+	//Calc c =new Calc();
+	Assert.assertEquals(33, Calc.add(22, 11));
+	
+	}
+@After
+
+public void after()
+{
+	System.out.println("after Test1");
+}
+
+@Before
+public void before2()
+{
+	System.out.println("before Test2");
+}
+@Test
+public void test2()
+{
+Calc c =new Calc();
+Assert.assertNotSame(5,c.sub(33,18) );
+
+}
+@After
+
+public void after2()
+{
+	System.out.println("after Test2");
+}
+
+
+}

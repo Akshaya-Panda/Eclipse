@@ -1,0 +1,27 @@
+package com.comviva.pos.ui;
+
+public class AdminUI {
+
+}
+//package com.comviva.pos.ui;
+//import javax.swing.JOptionPane;
+//
+//import com.comviva.pos.bean.StoreBean;
+//import com.comviva.pos.dao.AdministratorDao;
+//import com.comviva.pos.service.Administrator;
+//
+//public class Main {
+//	public static StoreBean sb=null;
+//public static Administrator adm=new AdministratorDao();
+//public static void main(String[] args) {
+//	
+//	String userId=JOptionPane.showInputDialog("Enter userID");
+//	String password=JOptionPane.showInputDialog("Enter Password");
+//	String userType=JOptionPane.showInputDialog("Enter userType");
+//if(userId.equals("AD-001")&&(password.equals("AD-001")&&(userType.equals("A"))))
+//{
+//	sb=StoreDetails.addStore();
+//	JOptionPane.showMessageDialog(null,adm.addStore(sb));
+//}
+//}
+//}

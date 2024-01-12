@@ -1,0 +1,5 @@
+package com.comviva.pos.service;
+
+public class Customer {
+
+}

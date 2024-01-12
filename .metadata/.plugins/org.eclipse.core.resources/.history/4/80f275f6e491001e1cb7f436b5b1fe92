@@ -1,0 +1,5 @@
+package com.comviva.pos.bean;
+
+public class CreditCardBean {
+
+}
